@@ -1,0 +1,260 @@
+@font-face {
+  font-family: Chivo;
+  src: url(./assets/fonts/Chivo-Regular.ttf);
+}
+@font-face {
+  font-family: CenturyGothic;
+  src: url(./assets/fonts/CenturyGothic.ttf);
+}
+@font-face {
+  font-family: Abel;
+  src: url(./assets/fonts/Abel-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-style: normal;
+  font-weight: normal;
+}
+body {
+  width: 100%;
+  background: #e5e5e5ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  background: #ffffff;
+  padding: 22px 260px 39px;
+}
+.header {
+  width: 100%;
+  height: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0;
+}
+.logo {
+  padding-right: 88px;
+}
+.logo > img {
+  height: 35px;
+}
+nav {
+  height: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  justify-content: center;
+  align-items: center;
+  font-family: CenturyGothic;
+  padding: 8px 0;
+}
+nav > a {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: right;
+  color: #aaaaaa;
+}
+nav > :nth-child(1) {
+  padding-left: 44px;
+}
+nav > :nth-child(2) {
+  padding-left: 59px;
+}
+nav > :nth-child(3) {
+  padding-left: 35px;
+}
+nav > :nth-child(4) {
+  padding-left: 41px;
+}
+.first {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 108px;
+}
+.first > img {
+  width: 100%;
+  position: relative;
+}
+.txt1 {
+  position: absolute;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Chivo;
+}
+.txt1 > :nth-child(1) {
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+
+  color: #ffffff;
+}
+.txt1 > :nth-child(2) {
+  font-size: 20px;
+  line-height: 31px;
+  text-align: center;
+  letter-spacing: 0.206928px;
+
+  color: #ffffff;
+  padding-top: 17px;
+}
+.second {
+  padding-top: 34px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.second > img {
+  position: relative;
+}
+.txt2 {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+  font-family: Chivo;
+}
+.txt2 > :nth-child(1) {
+  font-size: 48px;
+  line-height: 58px;
+  font-weight: 600;
+  text-align: center;
+  color: #ffffff;
+}
+.txt2 > :nth-child(2) {
+  font-size: 20px;
+  line-height: 31px;
+  padding-top: 20px;
+  text-align: center;
+  letter-spacing: 0.206928px;
+  color: #ffffff;
+  font-weight: 600;
+}
+.third {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.one {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 17px;
+}
+.one > img {
+  position: relative;
+}
+.left {
+  padding-right: 34px;
+}
+.txt3 {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-family: Chivo;
+}
+.txt3 > :nth-child(1) {
+  font-size: 23px;
+  line-height: 28px;
+  text-align: center;
+  color: #ffffff;
+}
+.txt3 > :nth-child(2) {
+  font-size: 12px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+  padding-top: 20px;
+}
+.fourth {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.two {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 34px;
+}
+.two > img {
+  position: relative;
+}
+.middle {
+  padding: 34px 34px 0;
+}
+.txt4 {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Chivo;
+  color: #ffffff;
+}
+.txt4 > :nth-child(1) {
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #ffffff;
+}
+.txt4 > :nth-child(2) {
+  font-size: 13px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.13px;
+  padding-top: 6px;
+  color: #ffffff;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 131px;
+}
+.icons {
+  width: 174px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.icons > img {
+  width: 36px;
+  height: 36px;
+}
+.icons > img:hover {
+  background: cyan;
+  border-radius: 5px;
+  cursor: pointer;
+}
+footer > :nth-child(3) {
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.38px;
+  color: #333333;
+  font-family: Abel;
+}
